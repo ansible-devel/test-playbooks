@@ -1,0 +1,11 @@
+---
+- hosts: localhost
+  gather_facts: false
+
+  tasks:
+    - debug:
+        msg: "Before pause"
+    - pause:
+        seconds: "{{ seconds|default(30) }}"
+    - debug:
+        msg: "Before pause"
