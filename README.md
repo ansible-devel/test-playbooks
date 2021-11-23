@@ -1,1 +1,1 @@
-Playbook for testing
+This project contains ansible playbooks for testing
